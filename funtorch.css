@@ -41,13 +41,25 @@ body {
 }
 
 .desc {
-  text-indent: 50px;
+  text-indent: 20px;
   margin: 1em 0;
   ;
 }
 
 .card {
   box-shadow: 4px 7px 5px 0px rgba(0, 0, 0, 0.24);
+}
+
+.install {
+  transition: all .5s ease-in-out;
+  max-height: 100px;
+  overflow: hidden;
+  opacity:0.5;
+}
+
+.install:hover {
+  max-height: 1000px;
+  opacity: 1;
 }
 
 #footer {
