@@ -1,107 +1,136 @@
 <html>
 
 <head>
-    <meta charset='utf-8' />
-    <title>FunTorch</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="funtorch.css">
+  <meta charset='utf-8' />
+  <title>FunTorch</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="funtorch.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
+  <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top" id="navBar">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <!-- Brand -->
-  <a class="navbar-brand" href="#">FunTorch</a>
-  <!-- Links -->
-  <div class="collapse navbar-collapse" id="nav-content">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#jumbo">Sign Language Project<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#app">Android app</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#team">Team</a>
-      </li>
-    </ul>
-</nav>
-<div class="container">
-  <div class="jumbotron">
-    <div class="jumbo text-light" id="jumbo">
-      <h1 class="display-4" id="title">Sign Language Recognition</h1>
-      <p class="lead mt-3">A team of volunteers from PyTorch Scholarship Challenge from Facebook hosted by Udacity creating awesome Deep Learning models.</p>
-      <hr class="my-4">
-      <p>Find the project on GitHub:</p>
-      <a class="btn btn-light btn-lg" href="https://github.com/coalaroot/Pytorch-challenge-side-project/tree/develop" role="button"><i class="fab fa-github"></i>Main project</a>
-      <a class="btn btn-light btn-lg" href="https://github.com/forfireonly/SignLanguage" role="button"><i class="fab fa-github"></i>Android app</a>
-    </div>
-  </div>
-
-  <hr></hr>
-  <h2 id="mproj" class="mb-3">Main project</h2>
-
-  <div class="desc">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at laoreet quam. Vestibulum hendrerit vel augue et suscipit. Ut posuere urna sed odio lacinia dignissim. Duis nunc sapien, blandit in quam eget, dignissim rhoncus magna. Donec vitae tincidunt nibh. Duis ac commodo risus. Suspendisse et dolor nulla. Quisque ac sapien lacinia, sollicitudin arcu a, vehicula est. Phasellus non eleifend magna. Ut tristique imperdiet condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-  </div>
-  <div class="desc">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at laoreet quam. Vestibulum hendrerit vel augue et suscipit. Ut posuere urna sed odio lacinia dignissim. Duis nunc sapien, blandit in quam eget, dignissim rhoncus magna. Donec vitae tincidunt nibh. Duis ac commodo risus. Suspendisse et dolor nulla. Quisque ac sapien lacinia, sollicitudin arcu a, vehicula est. Phasellus non eleifend magna. Ut tristique imperdiet condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-  </div>
-  <div class="desc">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at laoreet quam. Vestibulum hendrerit vel augue et suscipit. Ut posuere urna sed odio lacinia dignissim. Duis nunc sapien, blandit in quam eget, dignissim rhoncus magna. Donec vitae tincidunt nibh. Duis ac commodo risus. Suspendisse et dolor nulla. Quisque ac sapien lacinia, sollicitudin arcu a, vehicula est. Phasellus non eleifend magna. Ut tristique imperdiet condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-  </div>
-
-  <hr></hr>
-  <h2 id="app" class="my-5">Android application</h2>
-  <div>
-    <div class="card-deck">
-      <div class="card">
-        <img class="card-img-top" src="changing1gif.gif" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Easy to use</h5>
-          <p class="card-text">Quisque in ligula erat. Etiam commodo scelerisque nunc, a hendrerit dui molestie et. Sed fringilla quis sem eu venenatis. Sed et congue massa. Quisque pharetra enim aliquam ipsum pulvinar ullamcorper. Cras consequat viverra leo, sit amet venenatis est. Fusce sed lacinia turpis</p>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="changing2gif.gif" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Extremely helpful</h5>
-          <p class="card-text">Proin vitae dolor turpis. Mauris ornare consectetur rhoncus. Ut eget ullamcorper arcu. Praesent id sagittis odio. Sed et nunc lectus. Sed nunc orci, porta vel dui et, dapibus interdum eros. Aliquam rhoncus cursus dictum.</p>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="changing3gif.gif" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Breaking bariers</h5>
-          <p class="card-text">Suspendisse potenti. Aliquam ut leo sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a accumsan eros. Etiam id ligula vitae nisl hendrerit venenatis. Praesent eu consequat arcu, sed congue sem.</p>
-        </div>
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">FunTorch</a>
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="nav-content">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link grow" href="#jumbo">Sign Language Project<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link grow" href="#app">Android app</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link grow" href="#team">Team</a>
+        </li>
+      </ul>
+  </nav>
+  <div class="container">
+    <div class="jumbotron">
+      <div class="jumbo text-light grow" id="jumbo">
+        <h1 class="display-4" id="title">Sign Language Recognition</h1>
+        <p class="lead mt-3">A team of volunteers from PyTorch Scholarship Challenge from Facebook hosted by Udacity
+          creating awesome Deep Learning models.</p>
+        <hr class="my-4">
+        <p>Find the project on GitHub:</p>
+        <a class="btn btn-light btn-lg" href="https://github.com/coalaroot/Pytorch-challenge-side-project/tree/develop"
+          role="button"><i class="fab fa-github"></i>Main project</a>
+        <a class="btn btn-light btn-lg" href="https://github.com/forfireonly/SignLanguage" role="button"><i class="fab fa-github"></i>Android
+          app</a>
       </div>
     </div>
-  </div>
-  <hr></hr>
-  <div>
-    <h2 id="team" class="mt-5">Team</h2>
-    <ul class="list-group list-group-flush my-5">
-      <li class="list-group-item">Cras justo odio</li>
-      <li class="list-group-item">Dapibus ac facilisis in</li>
-      <li class="list-group-item">Morbi leo risus</li>
-      <li class="list-group-item">Porta ac consectetur ac</li>
-      <li class="list-group-item"><a href="https://www.linkedin.com/in/mariannajanczak/">Marianna Janczak</a></li>
-    </ul>
-  </div>
-  <div class="container-fluid bg-grey">
-    <div class="row">
 
+    <hr>
+    </hr>
+    <h2 id="mproj" class="mb-3">Main project</h2>
+
+    <div class="desc">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at laoreet quam. Vestibulum hendrerit vel augue
+      et suscipit. Ut posuere urna sed odio lacinia dignissim. Duis nunc sapien, blandit in quam eget, dignissim
+      rhoncus magna. Donec vitae tincidunt nibh. Duis ac commodo risus. Suspendisse et dolor nulla. Quisque ac sapien
+      lacinia, sollicitudin arcu a, vehicula est. Phasellus non eleifend magna. Ut tristique imperdiet condimentum.
+      Interdum et malesuada fames ac ante ipsum primis in faucibus.
     </div>
-  </div>
-<nav class="navbar navbar-light bg-light">
-  <span class="navbar-text">
-    © 2019 FunTorch
-  </span>
-</nav>
+    <div class="desc">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at laoreet quam. Vestibulum hendrerit vel augue
+      et suscipit. Ut posuere urna sed odio lacinia dignissim. Duis nunc sapien, blandit in quam eget, dignissim
+      rhoncus magna. Donec vitae tincidunt nibh. Duis ac commodo risus. Suspendisse et dolor nulla. Quisque ac sapien
+      lacinia, sollicitudin arcu a, vehicula est. Phasellus non eleifend magna. Ut tristique imperdiet condimentum.
+      Interdum et malesuada fames ac ante ipsum primis in faucibus.
+    </div>
+    <div class="desc">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at laoreet quam. Vestibulum hendrerit vel augue
+      et suscipit. Ut posuere urna sed odio lacinia dignissim. Duis nunc sapien, blandit in quam eget, dignissim
+      rhoncus magna. Donec vitae tincidunt nibh. Duis ac commodo risus. Suspendisse et dolor nulla. Quisque ac sapien
+      lacinia, sollicitudin arcu a, vehicula est. Phasellus non eleifend magna. Ut tristique imperdiet condimentum.
+      Interdum et malesuada fames ac ante ipsum primis in faucibus.
+    </div>
+
+    <hr>
+    </hr>
+    <h2 id="app" class="my-5">Android application</h2>
+    <div>
+      <div class="card-deck">
+        <div class="card grow">
+          <img class="card-img-top" src="changing1gif.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Easy to use</h5>
+            <p class="card-text">Quisque in ligula erat. Etiam commodo scelerisque nunc, a hendrerit dui molestie et.
+              Sed fringilla quis sem eu venenatis. Sed et congue massa. Quisque pharetra enim aliquam ipsum pulvinar
+              ullamcorper. Cras consequat viverra leo, sit amet venenatis est. Fusce sed lacinia turpis</p>
+          </div>
+        </div>
+        <div class="card grow">
+          <img class="card-img-top" src="changing2gif.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Extremely helpful</h5>
+            <p class="card-text">Proin vitae dolor turpis. Mauris ornare consectetur rhoncus. Ut eget ullamcorper arcu.
+              Praesent id sagittis odio. Sed et nunc lectus. Sed nunc orci, porta vel dui et, dapibus interdum eros.
+              Aliquam rhoncus cursus dictum.</p>
+          </div>
+        </div>
+        <div class="card grow">
+          <img class="card-img-top" src="changing3gif.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Breaking bariers</h5>
+            <p class="card-text">Suspendisse potenti. Aliquam ut leo sem. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Integer a accumsan eros. Etiam id ligula vitae nisl hendrerit venenatis. Praesent eu
+              consequat arcu, sed congue sem.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    </hr>
+    <div>
+      <h2 id="team" class="mt-5">Team</h2>
+      <ul class="list-group list-group-flush my-5">
+        <li class="list-group-item grow">Cras justo odio</li>
+        <li class="list-group-item grow">Dapibus ac facilisis in</li>
+        <li class="list-group-item grow">Morbi leo risus</li>
+        <li class="list-group-item grow">Porta ac consectetur ac</li>
+        <li class="list-group-item grow"><a href="https://www.linkedin.com/in/mariannajanczak/">Marianna Janczak</a></li>
+      </ul>
+    </div>
+    <div class="container-fluid bg-grey">
+      <div class="row">
+
+      </div>
+    </div>
+    </div>
+    <nav class="navbar navbar-light bg-light" id="footer">
+      <span class="navbar-text">
+        © 2019 FunTorch
+      </span>
+    </nav>
 </body>
+
 </html>

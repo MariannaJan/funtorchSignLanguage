@@ -1,20 +1,56 @@
+body {
+  padding-top: 120px;
+}
+
+#navBar {
+  height: 120px;
+  -webkit-box-shadow: 4px 7px 5px 0px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 4px 7px 5px 0px rgba(0, 0, 0, 0.24);
+  box-shadow: 4px 7px 5px 0px rgba(0, 0, 0, 0.24);
+}
+
+.navbar-brand {
+  font-size: 45px;
+}
+
+#nav-content {
+  font-size: 25;
+}
+
+.grow { 
+  transition: all .2s ease-in-out;
+  margin: 10px 20px;
+}
+.grow:hover { transform: scale(1.1); }
+
 .jumbotron {
-    background-image: url("AppFlow.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top:100px;
-  }
-  
-  .jumbo {
-    background-color: rgba(0,0,0,0.7);
-    padding: 20px;
-  }
+  background-image: url("AppFlow.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+}
 
-  #title {
-    font-weight: bold;
-  }
+.jumbo {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 10px;
+}
 
-  .desc {
-    text-indent: 50px;
-    margin: 1em 0;;
-  }
+#title {
+  font-weight: bold;
+}
+
+.desc {
+  text-indent: 50px;
+  margin: 1em 0;
+  ;
+}
+
+.card {
+  box-shadow: 4px 7px 5px 0px rgba(0, 0, 0, 0.24);
+}
+
+#footer {
+  padding-bottom: 20px;
+  height: 80px;
+}
